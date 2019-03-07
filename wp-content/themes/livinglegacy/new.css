@@ -1,40 +1,97 @@
+header {
+  border-image: url(images/ll-shadow-opacity-straight.png) 30 stretch !important;
+  border: 4px solid transparent;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  margin-bottom: -6px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  border-image-outset: 4px !important;
+}
+
+/* Featured Selection Page */
 .feature-selection-header {
-	background-image: url(images/home-header-hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+  background-image: url(images/home-header-hero.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .feature-selection-options li div {
-	background: url(images/living-legacies-circle-graphic.png) no-repeat center center !important;
+  background: url(images/living-legacies-circle-graphic.png) no-repeat center center !important;
 }
 
 .fs-v2 .pictures-bg {
-	background: url(images/fs-bottom-img.png) no-repeat center center !important;
-	height: 250px !important;
-	/*width: 100% !important;*/
-	margin-bottom: -180px !important;
-	background-size: cover !important;
+  background: url(images/fs-bottom-img.png) no-repeat center center !important;
+  height: 250px !important;
+  /*width: 100% !important;*/
+  margin-bottom: -180px !important;
+  background-size: cover !important;
 }
 
 .page:not(.home) .btn-gradient, .single .btn-gradient {
-	padding: 10px 20px !important;
-	min-width: 125px !important;
-	font-size: 16px !important;
+  padding: 10px 20px !important;
+  min-width: 125px !important;
+  font-size: 16px !important;
+}
+
+.feature-selection-options li p {
+  font-size: 11px !important;
 }
 
 /* 	Media Queries	*/
-
 /* Min Width Screen 1260px*/
 @media screen and (min-width: 1260px) {
-	.fs-v2 .pictures-bg {
-		height: 300px !important;
-	}
-} 
+  .fs-v2 .pictures-bg {
+    height: 300px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .feature-selection-options {
+    top: -60px;
+    margin-bottom: -100px;
+    flex-wrap: wrap !important;
+    -webkit-flex-wrap: wrap !important;
+  }
 
+  .feature-selection-options li {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .feature-selection-options li div {
+    height: 230px !important;
+    width: 230px !important;
+    padding: 54px 30px 40px !important;
+  }
+
+  .feature-selection-options li strong {
+    font-size: 18px !important;
+  }
+
+  .feature-selection-options li p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
+
+  .feature-selection-options li div span {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    min-height: 70px !important;
+  }
+
+  .page:not(.home) .btn-gradient, .single .btn-gradient {
+    padding: 8px 20px !important;
+    min-width: 122.5px !important;
+    font-size: 16px !important;
+  }
+}
 /* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
 @media screen and (max-width: 767px) {
-	.feature-selection-options li {
-		text-align: center;
-	}
-} 
+  /* Code here */
+}
+
+/*# sourceMappingURL=new.css.map */
