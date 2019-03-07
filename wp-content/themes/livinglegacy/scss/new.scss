@@ -1,15 +1,16 @@
 header {
-	border-image: url(images/ll-shadow-opacity-straight.png) 30 stretch !important;
+	border-image: url(images/ll-shadow-opacity.png) 125 round !important;
     border: 4px solid transparent;
     border-top-width: 0px;
     border-left-width: 0px;
+    border-bottom-width: 20px;
     border-right-width: 0px;
     margin-bottom: -6px;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 20;
-    border-image-outset: 4px !important;
+    z-index: 1000000000;
+    border-image-outset: 11px !important;
 }
 
 
