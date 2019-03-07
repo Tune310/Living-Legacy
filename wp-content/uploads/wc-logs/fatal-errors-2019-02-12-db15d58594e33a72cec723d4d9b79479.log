@@ -1,0 +1,36 @@
+2019-02-12T01:18:18+00:00 CRITICAL Uncaught Error: Call to undefined function acf_maybe_get_field() in /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:27
+Stack trace:
+#0 /www/livinglegacy_455/public/wp-content/themes/livinglegacy/includes/fn-core.php(381): get_field('google_map_api', 'options')
+#1 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(286): am_acf_google_map_key('')
+#2 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /www/livinglegacy_455/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/acf.php(333): do_action('acf/init')
+#5 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(286): ACF->init('')
+#6 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /www/livinglegacy_455/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /www/livinglegacy_455/public/wp-s in /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 27
+
+2019-02-12T01:18:20+00:00 CRITICAL Uncaught Error: Call to undefined function acf_maybe_get_field() in /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:27
+Stack trace:
+#0 /www/livinglegacy_455/public/wp-content/themes/livinglegacy/includes/fn-core.php(381): get_field('google_map_api', 'options')
+#1 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(286): am_acf_google_map_key('')
+#2 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /www/livinglegacy_455/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/acf.php(333): do_action('acf/init')
+#5 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(286): ACF->init('')
+#6 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /www/livinglegacy_455/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /www/livinglegacy_455/public/wp-s in /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 27
+
+2019-02-12T01:18:23+00:00 CRITICAL Uncaught Error: Call to undefined function acf_maybe_get_field() in /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:27
+Stack trace:
+#0 /www/livinglegacy_455/public/wp-content/themes/livinglegacy/includes/fn-core.php(381): get_field('google_map_api', 'options')
+#1 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(286): am_acf_google_map_key('')
+#2 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /www/livinglegacy_455/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/acf.php(333): do_action('acf/init')
+#5 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(286): ACF->init('')
+#6 /www/livinglegacy_455/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /www/livinglegacy_455/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /www/livinglegacy_455/public/wp-s in /www/livinglegacy_455/public/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 27
+

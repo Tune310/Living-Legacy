@@ -1,0 +1,32 @@
+/* Plugin added by Steve Smith on 2/27/19 */
+
+/* below added by SDS */
+ul#myUL li {
+  cursor: pointer;
+  position: relative;
+  padding: 15px 20px 9px 20px;
+  list-style-type: none;
+  background: #fff;
+  font-size: 20px;
+  transition: 0.2s;
+  color:#383939;
+  /* make the list items unselectable */
+ /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+	font-family: 'SamsungSharpSansRegular-Regular’;*/
+  -webkit-user-select: none; /* SDS */
+  -moz-user-select: none; /* SDS */
+  -ms-user-select: none; /* SDS */
+  user-select: text; /* SDS */
+	font-family: 'SamsungSharpSansRegular-Regular';
+ /*text-align: left; /* SDS */
+}
+
+#media-bin li p.media-desc-txt {
+    max-height: 88px;
+    overflow: auto;
+    text-align: left; /* SDS */
+}
+/* above added bySDS */

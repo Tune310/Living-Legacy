@@ -1,0 +1,5 @@
+2019-02-23T22:55:16+00:00 CRITICAL Uncaught Error: Call to undefined function wp_check_php_version() in /www/livinglegacy_455/public/wp-admin/about.php:59
+Stack trace:
+#0 {main}
+  thrown in /www/livinglegacy_455/public/wp-admin/about.php on line 59
+

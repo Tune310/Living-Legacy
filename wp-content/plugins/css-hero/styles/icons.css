@@ -1,0 +1,431 @@
+.csshero-close-response:before,
+.csshero-service-actions > span:before,
+.csshero-unsplash-search > span:before,
+.close-overlay:before,
+.csshero-detach-editor:before,
+.inspector-close:before,
+.csshero-close-service:before,
+.inspector-selector-add .bubble-actions > span.clo:before,
+.csshero-service-item[data-service="history"]:before,
+li.menu-export:before,
+.new-snippet-creator .csshero-editor-overlay-contents > .csshero-overlay-close:before,
+.csshero-load-animation .del:before,
+.folder-name:before,
+.csshero-ctx-chooser .classer:before,
+.sc-lock:before,
+.trig-csshero-trigger-inspector:before,
+.ctx-mqs > span:before,
+.close-clipper:before,
+.menu-snapshots:before,
+.csshero-tabs-bar > div:not(.csshero-mode-animations):before,
+.show-sub-actions:before,
+.csshero-quick-var-expander label:before,
+.csshero-enable-tips:before,
+.class-inner-super-w .dropdown-title:before,
+.csshero-class-title-anchor .dropdown-title:before,
+.csshero-open-new-tab:before,
+.csshero-code-toggle-code-editor-pos:before,
+.close-bg-img-tab:before,
+.csshero-editor-block-widget .dd-prev:before,
+.close-quick-var:before,
+.csshero-class-category-swapper:before,
+.load-quick-var:before,
+.csshero-quick-var:before,
+.top-nav li li:before,
+.modify-selector:before,
+.csshero-widget-btn.csshero-open-font-manager:before,
+.top-nav li[data-service^="quick-"]:before,
+.csshero-palette-nav .closer:before,
+.csshero-var-type-color_var.modifying-var .var-color-prev:after,
+.sha-head .closer:before,
+.h1-scope:before,
+.browse-icon:before,
+.csshero-project-overview-controls span:before,
+#csshero-inspector .title:before,
+#csshero-inspector .close:before,
+.show-theme-code:before,
+.unsplash-zoom-close:before,
+.unsplash-zoom:before,
+.folder-actions .extras:before,
+.welcome-csshero-detach-editor:before,
+.gradient-color-handle:after,
+.csshero-selector-refiner > span:before,
+.csshero-trigger-inspector:before,
+.open-project-manager:before,
+.send-to-editor:before,
+.csshero-props-actions .sub-actions li span:before,
+.gradient-color-delete:before,
+.tree-el-edit:before,
+.csshero-classes-action-delete:before,
+.remove-class:before,
+.class-wrap:not(.editing-class) .csshero-classes-action-update:before,
+.tree-el-delete:before,
+.icon-search:before,
+#csshero-body .apply-class:before,
+.delete-param:before,
+.set-to-none:before,
+.close-tour:before,
+.close-tour-step:before,
+.csshero-ctx-chooser li:before,
+.csshero-editor-block-sub-title:before,
+.widget-btns-expander li:before,
+.csshero-widget-button:before,
+.reset-properties:before,
+.csshero-selector .icon:before,
+.responsive-icon:before,
+.csshero-mq-mode-item span.icon:before,
+.csshero-toggle-list:before,
+.icon-toggle-preview-mode:before,
+.icon-toggle-css-editor:before,
+.html5-color-input-wrap:before,
+.csshero-bottom-navi:not(:empty):before,
+.csshero-preview-class:before,
+.icon-selection:before,
+.top-nav li.csshero-quit:before,
+.color-dropdown:before,
+.csshero-rename-snippet-cat:before,
+.edit-this-mq:before,
+.csshero-stack-option-modify:before,
+.csshero-trigger-wysiwyg:before,
+.csshero-advanced-prop-notice:before,
+.csshero-inspector-laydown:before,
+.csshero-selectors-list > span:before,
+.csshero-spacing-controller .o:before,
+#csshero-body .csshero-tip-expanded .close-tip:before,
+.trigg:before,
+.palette-trigger-wrap:before{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+  font-size:40px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rn1wbs');
+  src:  url('fonts/icomoon.eot?rn1wbs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rn1wbs') format('truetype'),
+    url('fonts/icomoon.woff?rn1wbs') format('woff'),
+    url('fonts/icomoon.svg?rn1wbs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.csshero-ctx-chooser li:before,
+.trigg:before{content:"\e95c";}
+.csshero-ctx-chooser li.only-this:before,
+.trigg[data-type="ot"]:before{content:"\e95d";}
+.csshero-ctx-chooser li.cat:before,
+.csshero-ctx-chooser li.page:before,
+.trigg[data-type="page"]:before{content:"\e95e";}
+.csshero-style-login-page:before,
+.csshero-ctx-chooser li.template:before,
+.trigg[data-type="template"]:before{content:"\e95f";}
+
+
+
+.csshero-spacing-controller .o:before{content:"\e93d";}
+
+
+.csshero-trigger-wysiwyg:before{content:"\e918";}
+
+
+.csshero-advanced-prop-notice:before{content: "\e951";}
+
+.browse-icon:before{content: "\e94c";}
+
+.csshero-selectors-list > span:before{content:"\e949";}
+
+.gradient-color-handle:after{content: "\e947";}
+
+/* PENCILS */
+.csshero-rename-snippet-cat:before,
+.csshero-var-type-color_var.modifying-var .var-color-prev:after,
+.send-to-editor:before,
+.tree-el-edit:before,
+.edit-this-mq:before,
+.modify-selector:before,
+.csshero-stack-option-modify:before{content: "\e934";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+
+.top-nav li[data-service="variables"]:before,
+.csshero-quick-var-expander label:before,
+.load-quick-var:before,
+.csshero-quick-var:before{content: "\e94b";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+.csshero-selector-refiner > span:before{content: "\e959";}
+
+.folder-actions .extras:before,
+#csshero-body .apply-class:before{content: "\e943";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+.csshero-bottom-navi:not(:empty):before,
+.icon-selection:before{content:"\e900";}
+
+.csshero-editor-block-sub-title:before{content:"\e903";}
+.csshero-editor-block-sub-title[data-prop-group-name="background"]:before{content:"\e902";}
+.csshero-editor-block-sub-title[data-prop-group-name="typography"]:before{content:"\e904";font-size:39px;}
+.csshero-editor-block-sub-title[data-prop-group-name="padding"]:before{content: "\e93e";}
+.csshero-editor-block-sub-title[data-prop-group-name="margin"]:before{content: "\e93f";}
+.csshero-editor-block-sub-title[data-prop-group-name="borders"]:before{content: "\e941";}
+.csshero-editor-block-sub-title[data-prop-group-name="measures"]:before{content: "\e940";}
+.csshero-editor-block-sub-title[data-prop-group-name="extra"]:before{content: "\e94d";}
+.csshero-editor-block-sub-title[data-prop-group-name="lists"]:before{content: "\e94e";}
+.csshero-editor-block-sub-title[data-prop-group-name="spacings"]:before{content: "\e94f";}
+
+.csshero-classes-action-delete:before{content: "\e942";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:antialiased;}
+
+.csshero-inspector-laydown:before{content: "\e917";}
+
+
+.color-dropdown:before,
+.palette-trigger-wrap:before{content:"\e906";}
+
+.html5-color-input-wrap:before{content:"\e901"; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+.icon-toggle-preview-mode:before{content: "\e908"; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+.h1-scope:before,
+#csshero-inspector .title:before,
+.class-wrap:not(.editing-class) .csshero-classes-action-update:before,
+.icon-toggle-css-editor:before {content: "\e909"; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+
+.csshero-toggle-list:before{content: "\e90a";}
+
+.ctx-mqs > span[data-mq="all"]:before,
+.responsive-icon[data-mq-icon="all"]:before,
+#csshero-body[data-mq-mode="all"] .csshero-mq-mode-item span.icon:before{content: "\e90b";}
+
+.ctx-mqs > span[data-mq="mobile-landscape"]:before,
+.responsive-icon[data-mq-icon="mobile-landscape"]:before,
+#csshero-body[data-mq-mode="mobile-landscape"] .csshero-mq-mode-item span.icon:before{content: "\e90c";transform:rotate(90deg);}
+.ctx-mqs > span[data-mq="mobile-portrait"]:before,
+.responsive-icon[data-mq-icon="mobile-portrait"]:before,
+#csshero-body[data-mq-mode="mobile-portrait"] .csshero-mq-mode-item span.icon:before{content: "\e90c";}
+
+.ctx-mqs > span:before,
+.responsive-icon:before, /* QUELLA GENERICA */
+.csshero-mq-mode-item span.icon:before,
+.responsive-icon[data-mq-icon="tablet-portrait"]:before,
+#csshero-body[data-mq-mode="tablet-portrait"] .csshero-mq-mode-item span.icon:before{content: "\e90d";}
+
+.ctx-mqs > span[data-mq="tablet-landscape"]:before,
+.responsive-icon[data-mq-icon="tablet-landscape"]:before,
+#csshero-body[data-mq-mode="tablet-landscape"] .csshero-mq-mode-item span.icon:before{content: "\e90d";transform:rotate(90deg);}
+
+.csshero-editor-block-widget[data-property-name="background-position"] .csshero-widget-button:not(.csshero-show-input):before,
+.top-nav li[data-service="variables"]:before,
+.csshero-preview-class:before,
+.csshero-advanced-prop-notice:before,
+.top-nav li.csshero-quit:before,
+.csshero-trigger-inspector:before,
+.open-project-manager:before,
+.csshero-editor-block-widget .dd-prev:before,
+.browse-icon:before,
+.unsplash-zoom:before,
+.show-theme-code:before,
+.top-nav li[data-service^="quick-"]:before,
+.widget-btns-expander li.widget-btn-res:before,
+.widget-btns-expander li.widget-btn-imp:before,
+.icon-search:before,
+.csshero-service-actions > span:before,
+.csshero-service-item[data-service="history"]:before,
+li.menu-export:before,
+li.menu-tools:before,
+.csshero-widget-button[data-button-val="no-repeat"]:before,
+.csshero-unsplash-search > span:before,
+.csshero-load-images:before{-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+.csshero-selector .icon:before{content: "\e911";}
+
+.reset-properties:before,
+.csshero-reset:before{content: "\e942";}
+.toggle-navi:before{content: "\e955";}
+
+.trig-csshero-trigger-inspector:before,
+.csshero-trigger-inspector:before,
+.open-project-manager:before{content: "\e957";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+.top-nav li[data-service="docs"]:before{content:"\e952";}
+
+
+.csshero-selector .icon.tag-name-LI:before{content: "\e935";}
+.csshero-selector .icon.tag-name-UL:before{content: "\e936";}
+.csshero-selector .icon.tag-name-P:before{content:"\e937";}
+
+
+
+.csshero-selector .icon.tag-name-HR:before{content:"\e93c";}
+.csshero-selector .icon.tag-name-FIGURE:before,
+.csshero-selector .icon.tag-name-IMG:before{content:"\e93d";}
+
+
+.csshero-selector .icon.tag-name-H1:before,
+.csshero-selector .icon.tag-name-H2:before,
+.csshero-selector .icon.tag-name-H3:before,
+.csshero-selector .icon.tag-name-H4:before,
+.csshero-selector .icon.tag-name-H5:before,
+.csshero-selector .icon.tag-name-H6:before{content: "\e938";}
+.csshero-selector .icon.tag-name-A:before{content: "\e939";}
+.csshero-selector .icon.tag-name-SECTION:before{content: "\e93a";}
+.csshero-selector .icon.tag-name-ARTICLE:before{content: "\e93b";}
+
+
+
+.csshero-selector .icon.tag-name-HTML:before{content: "\e90f";}
+.csshero-selector .icon.tag-name-BODY:before{ content: "\e910";}
+
+
+.csshero-selector .icon.tag-name-FOOTER:before{content: "\e912";}
+.csshero-selector .icon.tag-name-HEADER:before{content: "\e913";}
+
+
+.widget-btns-expander li.widget-btn-res:before,
+.top-nav li[data-service^="quick-"]:before{content: "\e944";}
+.csshero-service-item[data-service="history"]:before{content:"\e914";}
+
+
+.sub-actions li span.review:before,
+.csshero-preview-class:before,
+.csshero-editor-block-widget .dd-prev:before,
+.show-theme-code:before{content:"\e916";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+
+
+
+.csshero-editor-block-widget[data-property-name="text-align"] .csshero-widget-button[data-button-val="left"]:before{content:"\e91c";}
+.csshero-editor-block-widget[data-property-name="text-align"] .csshero-widget-button[data-button-val="center"]:before{content:"\e91a";}
+.csshero-editor-block-widget[data-property-name="text-align"] .csshero-widget-button[data-button-val="right"]:before{content:"\e91b";}
+.csshero-editor-block-widget[data-property-name="text-align"] .csshero-widget-button[data-button-val="justify"]:before{content:"\e919";}
+
+/* TEXTUAL BUTTONS */
+.csshero-editor-block-widget[data-property-name="list-style-type"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="list-style-position"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="display"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="box-sizing"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="visibility"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="clear"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="float"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="font-style"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="text-decoration"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="text-transform"] .csshero-widget-button:before{-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;font-family:'Helvetica Neue', Helvetica, sans-serif!important;line-height:40px;width:70px;font-weight:700;font-size:10px;margin-left:-35px!important;}
+
+.csshero-widget-button[data-button-val="capitalize"]:before{content:"Cap";}
+.csshero-widget-button[data-button-val="uppercase"]:before{content:"UP";}
+.csshero-widget-button[data-button-val="lowercase"]:before{content:"low";}
+.csshero-widget-button[data-button-val="underline"]:before{content:"under";text-decoration:underline;}
+.csshero-widget-button[data-button-val="overline"]:before{content:"over";text-decoration:overline;}
+.csshero-widget-button[data-button-val="line-through"]:before{content:"through";text-decoration: line-through;}
+.csshero-widget-button[data-button-val="normal"]:before{content:"normal";}
+.csshero-widget-button[data-button-val="italic"]:before{content:"Italic";font-style: italic;}
+
+.csshero-widget-button[data-button-val="none"]:before{content:"none";}
+
+.csshero-editor-block-widget[data-property-name="list-style-type"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="list-style-position"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="float"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="visibility"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="box-sizing"] .csshero-widget-button:before,
+.csshero-editor-block-widget[data-property-name="display"] .csshero-widget-button:before{content: attr(data-button-val);}
+
+.unsplash-zoom:before,
+.icon-search:before,
+.csshero-unsplash-search > span:before{content: "\e91e";}
+
+.csshero-service-item[data-service="overview"]:before,
+.csshero-project-overview-controls span:before,
+.folder-name:before,
+.class-inner-super-w .dropdown-title:before,
+.csshero-class-title-anchor .dropdown-title:before,
+.csshero-class-category-swapper:before{content: "\e953";}
+
+/* CROSSES */
+.csshero-load-animation .del:before,
+.new-snippet-creator .csshero-editor-overlay-contents > .csshero-overlay-close:before,
+.close-clipper:before,
+#csshero-body .csshero-tip-expanded .close-tip:before,
+.inspector-selector-add .bubble-actions > span.clo:before,
+.inspector-close:before,
+.csshero-class-category-swapper.swapper-open:before,
+.csshero-close-response:before,
+.unsplash-zoom-close:before,
+#csshero-inspector .close:before,
+.remove-class:before,
+.gradient-color-delete:before,
+.tree-el-delete:before,
+.delete-param:before,
+.csshero-search-props-wrap .icon-search.searching:before,
+.set-to-none:before,
+.sha-head .closer:before,
+.csshero-palette-nav .closer:before,
+.close-quick-var:before,
+.close-bg-img-tab:before,
+.close-tour:before,
+.close-tour-step:before,
+.close-overlay:before,
+.top-nav li[data-overlay-service="export"]:before,
+.csshero-close-service:before,
+.csshero-widget-button[data-button-val="no-repeat"]:before{content:"\e91f";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+.csshero-widget-button[data-button-val="repeat-y"]:before{content:"\e920";}
+.csshero-widget-button[data-button-val="repeat-x"]:before{content:"\e921";}
+.csshero-widget-button[data-button-val="repeat"]:before{content:"\e922";}
+
+
+.top-nav .csshero-view-as-unlogged:before{content: "\e924";}
+.show-sub-actions:before{content: "\e923";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+.top-nav li.csshero-quit:before{content: "\e950";}
+
+.csshero-enable-tips:before{content:"\e954";-webkit-font-smoothing: antialiased!important;-moz-osx-font-smoothing: antialiased!important;}
+
+.open-mq-manager:before{content: "\e925";}
+.icon-plus:before{content: "\e926";}
+
+.welcome-csshero-detach-editor:before,
+.csshero-detach-editor:before{content: "\e956";}
+body.detached-editor .welcome-csshero-detach-editor:before,
+body.detached-editor .csshero-detach-editor:before{content: "\e963";}
+
+.csshero-editor-block-widget[data-property-name="background-size"] .csshero-widget-button[data-button-val="auto"]:before{content: "\e92a";}
+.csshero-editor-block-widget[data-property-name="background-size"] .csshero-widget-button[data-button-val="cover"]:before{content: "\e927";}
+.csshero-editor-block-widget[data-property-name="background-size"] .csshero-widget-button[data-button-val="contain"]:before{content: "\e928";}
+.csshero-editor-block-widget[data-property-name="background-size"] .csshero-widget-button[data-button-val="100% 100%"]:before{content: "\e929";}
+
+.widget-btns-expander li.widget-btn-imp:before{content: "\e92d";}
+.widget-btns-expander li.widget-btn-donly:before{content: "\e92c";}
+
+
+.csshero-save-snapshot:before{content:"\e961";}
+.csshero-service-item[data-service="snapshots"]:before{content:"\e962";}
+
+
+.csshero-editor-block-widget[data-property-name="background-position"] .csshero-widget-button:not(.csshero-show-input):before {content: "\e92f";}
+.csshero-code-toggle-code-editor-pos:before{content: "\e930";}
+
+
+#csshero-body[data-code-mode="full"] .csshero-code-toggle-code-editor-pos:before{content: "\e946";}
+
+
+.csshero-tabs-bar > div:not(.csshero-mode-animations):before,
+.top-nav li[data-service="tree"]:before{content:"\e915";}
+
+.csshero-ctx-chooser .classer:before,
+.csshero-ctx-chooser .extender li:before,
+.sub-actions li span.make-class:before,
+.csshero-tabs-bar > div.csshero-mode-classes:before{content: "\e960";-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;}
+
+
+.top-nav li[data-overlay-service="font-manager"]:before,
+.csshero-widget-btn.csshero-open-font-manager:before{content: "\e945";}
+
+
+.sc-lock:before {
+  content: "\e925";
+}
