@@ -1,176 +1,155 @@
 header {
-	border-image: url(images/ll-shadow-opacity.png) 56 stretch !important;
-    border: 4px solid transparent;
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 20px;
-    border-right-width: 0px;
-    margin-bottom: -6px;
-    width: 100%;
-    border-image-outset: 11px !important;
+  border-image: url(images/ll-shadow-opacity.png) 56 stretch !important;
+  border: 4px solid transparent;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 20px;
+  border-right-width: 0px;
+  margin-bottom: -6px;
+  width: 100%;
+  border-image-outset: 11px !important;
 }
 
-						/* 					Featured Selection Page 				*/
-
+/*          Featured Selection Page         */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Desktop resolution~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .feature-selection-header {
-	background-image: url(images/home-header-hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+  background-image: url(images/home-header-hero.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .feature-selection-options {
-	top: -40px !important;
-	padding-bottom: 70px !important;
+  top: -40px !important;
+  padding-bottom: 70px !important;
 }
 
 .feature-selection-options li div {
-	background: url(images/living-legacies-circle-graphic.png) no-repeat center center !important;
+  background: url(images/living-legacies-circle-graphic.png) no-repeat center center !important;
 }
 
 .fs-v2 .pictures-bg {
-	background: url(images/fs-bottom-img.png) no-repeat center center !important;
-	height: 250px !important;
-	/*width: 100% !important;*/
-	margin-bottom: -180px !important;
-	background-size: cover !important;
-	// padding-left: 80px !important;
-	// padding-right: 80px !important;
-	// top: -68px;
+  background: url(images/fs-bottom-img.png) no-repeat center center !important;
+  height: 250px !important;
+  /*width: 100% !important;*/
+  margin-bottom: -180px !important;
+  background-size: cover !important;
 }
 
 .page:not(.home) .btn-gradient, .single .btn-gradient {
-	padding: 10px 20px !important;
-	min-width: 125px !important;
-	font-size: 16px !important;
+  padding: 10px 20px !important;
+  min-width: 125px !important;
+  font-size: 16px !important;
 }
 
 .feature-selection-options li p {
-	font-size: 12.5px !important;
+  font-size: 12.5px !important;
 }
 
 .feature-selection-options li strong {
-	    font-size: 17.9px !important;
+  font-size: 17.9px !important;
 }
 
 .feature-selection-options li div span {
-	font-size: 19px !important;
+  font-size: 19px !important;
 }
 
-// Desktop Resolution test
-// @media screen and (max-width: 1600px) {
-	
-	.fs-v2 .pictures-bg {
-		margin-bottom: -208px !important;
-    	background-size: 100% 80% !important;
-	}
+.fs-v2 .pictures-bg {
+  margin-bottom: -208px !important;
+  background-size: 100% 80% !important;
+}
 
-	.feature-selection-options li div {
-    	height: 230px !important;
-   		width: 230px !important;
-    	padding: 54px 30px 40px !important;
-	}
-	.feature-selection-options li strong {
-   		// font-size: 18px !important;
-	}
-	.feature-selection-options li p {
-    	// font-size: 14px !important;
-    	line-height: 23px !important;
-	}
-	.feature-selection-options li div span {
-    	font-size: 15px !important;
-    	line-height: 20px !important;
-    	min-height: 70px !important;
-	}
-	.page:not(.home) .btn-gradient, .single .btn-gradient {
-		padding: 8px 20px !important;
-		min-width: 122.5px !important;
-		font-size: 16px !important;
-	}
-	.header-banner.feature-selection-header h1 span {
-    	font-size: 52.5px !important;
-    	text-transform: uppercase !important;
-	}
+.feature-selection-options li div {
+  height: 230px !important;
+  width: 230px !important;
+  padding: 54px 30px 40px !important;
+}
 
+.feature-selection-options li p {
+  line-height: 23px !important;
+}
 
-/* 	Media Queries	*/
+.feature-selection-options li div span {
+  font-size: 15px !important;
+  line-height: 20px !important;
+  min-height: 70px !important;
+}
 
+.page:not(.home) .btn-gradient, .single .btn-gradient {
+  padding: 8px 20px !important;
+  min-width: 122.5px !important;
+  font-size: 16px !important;
+}
+
+.header-banner.feature-selection-header h1 span {
+  font-size: 52.5px !important;
+  text-transform: uppercase !important;
+}
+
+/*  Media Queries */
 /* Min Width Screen 1260px*/
-@media screen and (min-width: 1285px) {
-	.fs-v2 .pictures-bg {
-		height: 300px !important;
-	}
-	.feature-selection-options li p {
-    	font-size: 15.5px !important;
-	}
-	.feature-selection-options li strong {
-    	font-size: 21px !important;
-	}
-} 
+@media screen and (min-width: 1281px) {
+  .fs-v2 .pictures-bg {
+    height: 300px !important;
+  }
 
+  .feature-selection-options li p {
+    font-size: 15.5px !important;
+  }
+
+  .feature-selection-options li strong {
+    font-size: 21px !important;
+  }
+}
 @media screen and (max-width: 1280px) {
-	.fs-v2 .pictures-bg {
-		width: 1280px !important;
+  .fs-v2 .pictures-bg {
+    width: 1280px !important;
+  }
 
-	}
-	.fs-v2 .pictures-bg:parent {
-		max-width: 1280px;
-	}
+  .fs-v2 .pictures-bg:parent {
+    max-width: 1280px;
+  }
+   .feature-selection-options li strong {
+    font-size: 18.8px !important;
+  }
+}
+
+@media screen and (max-width: 1271px) {
+  .feature-selection-options li strong {
+    font-size: 17.9px !important;
+  }
 } 
 
 @media screen and (min-width: 992px) {
-	.feature-selection-options {
-		padding-left: 75px !important;
-		padding-right: 75px !important;
-	}
-} 
-// /* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
-
+  .feature-selection-options {
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+  }
+}
 @media screen and (max-width: 767px) {
-	.feature-selection-options {
-    	top: -60px !important;
-    	margin-bottom: -100px;
-    	flex-wrap: wrap !important;
-    	-webkit-flex-wrap: wrap !important;
-    	padding-left: 80px !important;
-    	padding-right: 80px !important;
-	}
-	.feature-selection-options li {
-    	width: 100% !important;
-    	text-align: center;
-	}
-	.feature-selection-options li div {
-    	height: 230px !important;
-   		width: 230px !important;
-    	padding: 54px 30px 40px !important;
-	}
+  .feature-selection-options {
+    top: -60px !important;
+    margin-bottom: -100px;
+    flex-wrap: wrap !important;
+    -webkit-flex-wrap: wrap !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
 
-	.fs-v2 .pictures-bg {
-        margin-bottom: -105px !important;
-    	background-size: 112% 76% !important;
-    	background-position-y: bottom !important;
-	}		
+  .feature-selection-options li {
+    width: 100% !important;
+    text-align: center;
+  }
 
-// 	.feature-selection-options li strong {
-//    		font-size: 18px !important;
-// 	}
-// 	.feature-selection-options li p {
-//     	font-size: 14px !important;
-//     	line-height: 21px !important;
-// 	}
-// 	.feature-selection-options li div span {
-//     	font-size: 14px !important;
-//     	line-height: 20px !important;
-//     	min-height: 70px !important;
-// 	}
-// 	.page:not(.home) .btn-gradient, .single .btn-gradient {
-// 		padding: 8px 20px !important;
-// 		min-width: 122.5px !important;
-// 		font-size: 16px !important;
-// 	}
-} 
+  .feature-selection-options li div {
+    height: 230px !important;
+    width: 230px !important;
+    padding: 54px 30px 40px !important;
+  }
 
-@media screen and (max-width: 480px) {
-
-} 
+  .fs-v2 .pictures-bg {
+    margin-bottom: -105px !important;
+    background-size: 112% 76% !important;
+    background-position-y: bottom !important;
+  }
+}

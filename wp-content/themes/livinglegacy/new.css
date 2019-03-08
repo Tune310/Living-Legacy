@@ -10,7 +10,7 @@ header {
   border-image-outset: 11px !important;
 }
 
-/* 					Featured Selection Page 				*/
+/*          Featured Selection Page         */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Desktop resolution~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .feature-selection-header {
   background-image: url(images/home-header-hero.png);
@@ -86,9 +86,9 @@ header {
   text-transform: uppercase !important;
 }
 
-/* 	Media Queries	*/
+/*  Media Queries */
 /* Min Width Screen 1260px*/
-@media screen and (min-width: 1285px) {
+@media screen and (min-width: 1281px) {
   .fs-v2 .pictures-bg {
     height: 300px !important;
   }
@@ -108,6 +108,15 @@ header {
 
   .fs-v2 .pictures-bg:parent {
     max-width: 1280px;
+  }
+
+  .feature-selection-options li strong {
+    font-size: 18.8px !important;
+  }
+}
+@media screen and (max-width: 1271px) {
+  .feature-selection-options li strong {
+    font-size: 17.9px !important;
   }
 }
 @media screen and (min-width: 992px) {
