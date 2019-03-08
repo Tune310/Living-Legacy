@@ -20,7 +20,7 @@ $user_account_level = ll_getMembershipLevelForUser(get_current_user_id());
         <?php if(!empty($user_account_level->ID) and $user_account_level->ID==4){?>
         	<h1><span>Let’s get started with your free trial!</span></h1>
 			<p>Enjoy your free trial!.<br>
-            Your content will be stored for 30 days.<br>If you would like to keep it, please purchase from our pricing plans.</p>
+            Your content will be stored for 30 days.<br>If you would like to keep it, please purchase from our <a href="<?php bloginfo('url'); ?>/membership-levels/">pricing plan</a>.</p>
             <p><small>Choose below and start creating your content.</small></p>
         <?php }else{?>  
 			<h1><span>Let’s get started!</span></h1>

@@ -13,14 +13,15 @@ header {
 /*          Featured Selection Page         */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Desktop resolution~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .feature-selection-header {
-  background-image: url(images/home-header-hero.png);
+  // background-image: url(images/home-header-hero.png);
+  background-image: url(images/ll-background-centered.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .feature-selection-options {
-  top: -40px !important;
+  top: -88px !important;
   padding-bottom: 70px !important;
 }
 
@@ -39,7 +40,9 @@ header {
 .page:not(.home) .btn-gradient, .single .btn-gradient {
   padding: 10px 20px !important;
   min-width: 125px !important;
-  font-size: 16px !important;
+  font-size: 11px !important;
+  padding: 3px 20px !important;
+  min-width: 82.5px !important;
 }
 
 .feature-selection-options li p {
@@ -60,8 +63,8 @@ header {
 }
 
 .feature-selection-options li div {
-  height: 230px !important;
-  width: 230px !important;
+  height: 250px !important;
+  width: 250px !important;
   padding: 54px 30px 40px !important;
 }
 
@@ -76,14 +79,25 @@ header {
 }
 
 .page:not(.home) .btn-gradient, .single .btn-gradient {
-  padding: 8px 20px !important;
-  min-width: 122.5px !important;
-  font-size: 16px !important;
+     font-size: 11px !important;
+    padding: 3px 20px !important;
+    min-width: 82.5px !important;
 }
 
 .header-banner.feature-selection-header h1 span {
-  font-size: 52.5px !important;
+  font-size: 43.5px !important;
   text-transform: uppercase !important;
+}
+
+.header-banner.feature-selection-header .col-v2 .text-btn.color2 {
+  position: relative;
+  bottom: 20px;
+  right: 7px;
+}
+
+.header-banner .col-v2 {
+  position: relative;
+  top: 65px;
 }
 
 /*  Media Queries */
@@ -122,18 +136,16 @@ header {
 
 @media screen and (min-width: 992px) {
   .feature-selection-options {
-    padding-left: 75px !important;
-    padding-right: 75px !important;
+    padding-left: 65px !important;
+    padding-right: 65px !important;
   }
 }
 @media screen and (max-width: 767px) {
   .feature-selection-options {
-    top: -60px !important;
-    margin-bottom: -100px;
+    top: -115px !important;
+    margin-bottom: -210px;
     flex-wrap: wrap !important;
     -webkit-flex-wrap: wrap !important;
-    padding-left: 80px !important;
-    padding-right: 80px !important;
   }
 
   .feature-selection-options li {
@@ -142,8 +154,8 @@ header {
   }
 
   .feature-selection-options li div {
-    height: 230px !important;
-    width: 230px !important;
+    height: 250px !important;
+    width: 250px !important;
     padding: 54px 30px 40px !important;
   }
 
@@ -152,4 +164,16 @@ header {
     background-size: 112% 76% !important;
     background-position-y: bottom !important;
   }
+  .page:not(.home) .btn-gradient, .single .btn-gradient {
+    padding: 8px 20px !important;
+    min-width: 108.5px !important;
+
+  }
 }
+@media screen and (max-width: 480px) {
+  .page:not(.home) .btn-gradient, .single .btn-gradient {
+    font-size: 14.5px !important;
+    padding: 12px 20px !important;
+    min-width: 132.5px !important;
+  }
+} 
