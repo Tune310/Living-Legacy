@@ -20,6 +20,10 @@ header {
     background-repeat: no-repeat;
 }
 
+.feature-selection-options {
+	top: -40px !important;
+}
+
 .feature-selection-options li div {
 	background: url(images/living-legacies-circle-graphic.png) no-repeat center center !important;
 }
@@ -30,6 +34,9 @@ header {
 	/*width: 100% !important;*/
 	margin-bottom: -180px !important;
 	background-size: cover !important;
+	// padding-left: 80px !important;
+	// padding-right: 80px !important;
+	// top: -68px;
 }
 
 .page:not(.home) .btn-gradient, .single .btn-gradient {
@@ -58,11 +65,6 @@ header {
     	background-size: 100% 60% !important;
 	}
 
-	ul.feature-selection-options {
-		top: -68px;
-    	padding-left: 80px;
-    	padding-right: 80px;
-	}
 	.feature-selection-options li div {
     	height: 230px !important;
    		width: 230px !important;
@@ -102,12 +104,22 @@ header {
 	}
 } 
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 991px) {
 	.feature-selection-options {
-    	top: -60px;
+		padding-left: 80px !important;
+		padding-right: 80px !important;
+	}
+} 
+// /* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
+
+@media screen and (max-width: 767px) {
+	.feature-selection-options {
+    	top: -60px !important;
     	margin-bottom: -100px;
     	flex-wrap: wrap !important;
     	-webkit-flex-wrap: wrap !important;
+    	padding-left: 0px !important;
+    	padding-right: 0px !important;
 	}
 	.feature-selection-options li {
     	width: 100% !important;
@@ -118,6 +130,13 @@ header {
    		width: 230px !important;
     	padding: 54px 30px 40px !important;
 	}
+
+	.fs-v2 .pictures-bg {
+        margin-bottom: -105px !important;
+    	background-size: 100% 50% !important;
+    	background-position-y: bottom !important;
+	}		
+
 // 	.feature-selection-options li strong {
 //    		font-size: 18px !important;
 // 	}
@@ -137,12 +156,3 @@ header {
 // 	}
 } 
 
-// /* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
-
-@media screen and (max-width: 767px) {
-	.fs-v2 .pictures-bg {
-        margin-bottom: -105px !important;
-    	background-size: 100% 50% !important;
-    	background-position-y: bottom !important;
-	}		
-}
