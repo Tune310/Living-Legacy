@@ -11,7 +11,7 @@ header {
 }
 
 .slicknav_menu {
-  top: 55px;
+  top: 55px !important;
 }
 
 /*          Featured Selection Page         */
