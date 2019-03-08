@@ -63,7 +63,7 @@ header {
 	
 	.fs-v2 .pictures-bg {
 		margin-bottom: -208px !important;
-    	background-size: 120% 66% !important;
+    	background-size: 100% 80% !important;
 	}
 
 	.feature-selection-options li div {
@@ -111,7 +111,11 @@ header {
 
 @media screen and (max-width: 1280px) {
 	.fs-v2 .pictures-bg {
-		max-width: 1280px !important;
+		width: 1280px !important;
+
+	}
+	.fs-v2 .pictures-bg:parent {
+		max-width: 1280px;
 	}
 } 
 
@@ -144,7 +148,7 @@ header {
 
 	.fs-v2 .pictures-bg {
         margin-bottom: -105px !important;
-    	background-size: 100% 50% !important;
+    	background-size: 112% 76% !important;
     	background-position-y: bottom !important;
 	}		
 
@@ -168,10 +172,5 @@ header {
 } 
 
 @media screen and (max-width: 480px) {
-	.fs-v2 .pictures-bg {
-	margin-bottom: -105px !important;
-    background-size: 220% 90% !important;
-    background-position-y: bottom !important;
 
-	}
 } 
