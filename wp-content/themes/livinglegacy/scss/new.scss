@@ -63,7 +63,7 @@ header {
 	
 	.fs-v2 .pictures-bg {
 		margin-bottom: -208px !important;
-    	background-size: 100% 60% !important;
+    	background-size: 120% 66% !important;
 	}
 
 	.feature-selection-options li div {
@@ -111,7 +111,7 @@ header {
 
 @media screen and (max-width: 1280px) {
 	.fs-v2 .pictures-bg {
-		width: 100% !important;
+		max-width: 1280px !important;
 	}
 } 
 
