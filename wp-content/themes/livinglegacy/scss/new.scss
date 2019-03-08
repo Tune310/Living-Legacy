@@ -1,20 +1,19 @@
-header {
-	border-image: url(images/ll-shadow-opacity.png) 125 stretch !important;
-    border: 4px solid transparent;
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 20px;
-    border-right-width: 0px;
-    margin-bottom: -6px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000000000;
-    border-image-outset: 11px !important;
-}
+// header {
+// 	border-image: url(images/ll-shadow-opacity.png) 125 stretch !important;
+//     border: 4px solid transparent;
+//     border-top-width: 0px;
+//     border-left-width: 0px;
+//     border-bottom-width: 20px;
+//     border-right-width: 0px;
+//     margin-bottom: -6px;
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     z-index: 1000000000;
+//     border-image-outset: 11px !important;
+// }
 
-
-
+// Desktop resolution
 /* Featured Selection Page */
 
 .feature-selection-header {
@@ -46,6 +45,49 @@ header {
 	font-size: 11px !important;
 }
 
+.feature-selection-options li strong {
+	font-size: 16.5px !important;
+}
+
+.feature-selection-options li div span {
+	font-size: 19px !important;
+}
+
+// Desktop Resolution test
+// @media screen and (max-width: 1600px) {
+	
+	.fs-v2 .pictures-bg {
+		margin-bottom: -208px !important;
+    	background-size: 100% 60% !important;
+	}
+
+	ul.feature-selection-options {
+		top: -68px;
+	}
+	.feature-selection-options li div {
+    	height: 230px !important;
+   		width: 230px !important;
+    	padding: 54px 30px 40px !important;
+	}
+	.feature-selection-options li strong {
+   		font-size: 18px !important;
+	}
+	.feature-selection-options li p {
+    	font-size: 14px !important;
+    	line-height: 21px !important;
+	}
+	.feature-selection-options li div span {
+    	font-size: 14px !important;
+    	line-height: 20px !important;
+    	min-height: 70px !important;
+	}
+	.page:not(.home) .btn-gradient, .single .btn-gradient {
+		padding: 8px 20px !important;
+		min-width: 122.5px !important;
+		font-size: 16px !important;
+	}
+// } 
+
 /* 	Media Queries	*/
 
 /* Min Width Screen 1260px*/
@@ -54,7 +96,6 @@ header {
 		height: 300px !important;
 	}
 } 
-
 
 @media screen and (max-width: 991px) {
 	.feature-selection-options {
