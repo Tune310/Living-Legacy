@@ -10,9 +10,9 @@ header {
     border-image-outset: 11px !important;
 }
 
-// Desktop resolution
-/* Featured Selection Page */
+						/* 					Featured Selection Page 				*/
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Desktop resolution~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .feature-selection-header {
 	background-image: url(images/home-header-hero.png);
     background-size: cover;
@@ -22,6 +22,7 @@ header {
 
 .feature-selection-options {
 	top: -40px !important;
+	padding-bottom: 70px !important;
 }
 
 .feature-selection-options li div {
@@ -46,11 +47,11 @@ header {
 }
 
 .feature-selection-options li p {
-	font-size: 11px !important;
+	font-size: 12.5px !important;
 }
 
 .feature-selection-options li strong {
-	font-size: 16.5px !important;
+	    font-size: 17.9px !important;
 }
 
 .feature-selection-options li div span {
@@ -75,10 +76,10 @@ header {
 	}
 	.feature-selection-options li p {
     	// font-size: 14px !important;
-    	line-height: 21px !important;
+    	line-height: 23px !important;
 	}
 	.feature-selection-options li div span {
-    	font-size: 14px !important;
+    	font-size: 15px !important;
     	line-height: 20px !important;
     	min-height: 70px !important;
 	}
@@ -87,7 +88,11 @@ header {
 		min-width: 122.5px !important;
 		font-size: 16px !important;
 	}
-// } 
+	.header-banner.feature-selection-header h1 span {
+    	font-size: 55px !important;
+    	text-transform: uppercase !important;
+	}
+
 
 /* 	Media Queries	*/
 
@@ -95,6 +100,12 @@ header {
 @media screen and (min-width: 1285px) {
 	.fs-v2 .pictures-bg {
 		height: 300px !important;
+	}
+	.feature-selection-options li p {
+    	font-size: 15.5px !important;
+	}
+	.feature-selection-options li strong {
+    	font-size: 21px !important;
 	}
 } 
 
@@ -104,10 +115,10 @@ header {
 	}
 } 
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
 	.feature-selection-options {
-		padding-left: 80px !important;
-		padding-right: 80px !important;
+		padding-left: 75px !important;
+		padding-right: 75px !important;
 	}
 } 
 // /* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
@@ -118,8 +129,8 @@ header {
     	margin-bottom: -100px;
     	flex-wrap: wrap !important;
     	-webkit-flex-wrap: wrap !important;
-    	padding-left: 0px !important;
-    	padding-right: 0px !important;
+    	padding-left: 80px !important;
+    	padding-right: 80px !important;
 	}
 	.feature-selection-options li {
     	width: 100% !important;
@@ -156,3 +167,11 @@ header {
 // 	}
 } 
 
+@media screen and (max-width: 480px) {
+	.fs-v2 .pictures-bg {
+	margin-bottom: -105px !important;
+    background-size: 220% 90% !important;
+    background-position-y: bottom !important;
+
+	}
+} 

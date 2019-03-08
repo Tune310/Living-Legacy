@@ -10,7 +10,8 @@ header {
   border-image-outset: 11px !important;
 }
 
-/* Featured Selection Page */
+/* 					Featured Selection Page 				*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Desktop resolution~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .feature-selection-header {
   background-image: url(images/home-header-hero.png);
   background-size: cover;
@@ -20,6 +21,7 @@ header {
 
 .feature-selection-options {
   top: -40px !important;
+  padding-bottom: 70px !important;
 }
 
 .feature-selection-options li div {
@@ -41,11 +43,11 @@ header {
 }
 
 .feature-selection-options li p {
-  font-size: 11px !important;
+  font-size: 12.5px !important;
 }
 
 .feature-selection-options li strong {
-  font-size: 16.5px !important;
+  font-size: 17.9px !important;
 }
 
 .feature-selection-options li div span {
@@ -64,11 +66,11 @@ header {
 }
 
 .feature-selection-options li p {
-  line-height: 21px !important;
+  line-height: 23px !important;
 }
 
 .feature-selection-options li div span {
-  font-size: 14px !important;
+  font-size: 15px !important;
   line-height: 20px !important;
   min-height: 70px !important;
 }
@@ -79,11 +81,24 @@ header {
   font-size: 16px !important;
 }
 
+.header-banner.feature-selection-header h1 span {
+  font-size: 55px !important;
+  text-transform: uppercase !important;
+}
+
 /* 	Media Queries	*/
 /* Min Width Screen 1260px*/
 @media screen and (min-width: 1285px) {
   .fs-v2 .pictures-bg {
     height: 300px !important;
+  }
+
+  .feature-selection-options li p {
+    font-size: 15.5px !important;
+  }
+
+  .feature-selection-options li strong {
+    font-size: 21px !important;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -91,10 +106,10 @@ header {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   .feature-selection-options {
-    padding-left: 80px !important;
-    padding-right: 80px !important;
+    padding-left: 75px !important;
+    padding-right: 75px !important;
   }
 }
 @media screen and (max-width: 767px) {
@@ -103,8 +118,8 @@ header {
     margin-bottom: -100px;
     flex-wrap: wrap !important;
     -webkit-flex-wrap: wrap !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
   }
 
   .feature-selection-options li {
@@ -121,6 +136,13 @@ header {
   .fs-v2 .pictures-bg {
     margin-bottom: -105px !important;
     background-size: 100% 50% !important;
+    background-position-y: bottom !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fs-v2 .pictures-bg {
+    margin-bottom: -105px !important;
+    background-size: 220% 90% !important;
     background-position-y: bottom !important;
   }
 }
