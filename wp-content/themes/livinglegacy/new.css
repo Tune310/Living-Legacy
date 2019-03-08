@@ -74,9 +74,14 @@ ul.feature-selection-options {
 
 /* 	Media Queries	*/
 /* Min Width Screen 1260px*/
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1285px) {
   .fs-v2 .pictures-bg {
     height: 300px !important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .fs-v2 .pictures-bg {
+    width: 1280px !important;
   }
 }
 @media screen and (max-width: 991px) {
@@ -121,7 +126,11 @@ ul.feature-selection-options {
 }
 /* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
 @media screen and (max-width: 767px) {
-  /* Code here */
+  .fs-v2 .pictures-bg {
+    margin-bottom: -105px !important;
+    background-size: 100% 50% !important;
+    background-position-y: bottom !important;
+  }
 }
 
 /*# sourceMappingURL=new.css.map */
