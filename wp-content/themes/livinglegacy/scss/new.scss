@@ -60,6 +60,8 @@ header {
 
 	ul.feature-selection-options {
 		top: -68px;
+    	padding-left: 80px;
+    	padding-right: 80px;
 	}
 	.feature-selection-options li div {
     	height: 230px !important;
@@ -67,10 +69,10 @@ header {
     	padding: 54px 30px 40px !important;
 	}
 	.feature-selection-options li strong {
-   		font-size: 18px !important;
+   		// font-size: 18px !important;
 	}
 	.feature-selection-options li p {
-    	font-size: 14px !important;
+    	// font-size: 14px !important;
     	line-height: 21px !important;
 	}
 	.feature-selection-options li div span {
@@ -96,7 +98,7 @@ header {
 
 @media screen and (max-width: 1280px) {
 	.fs-v2 .pictures-bg {
-		width: 1280px !important;
+		width: 100% !important;
 	}
 } 
 
@@ -116,26 +118,26 @@ header {
    		width: 230px !important;
     	padding: 54px 30px 40px !important;
 	}
-	.feature-selection-options li strong {
-   		font-size: 18px !important;
-	}
-	.feature-selection-options li p {
-    	font-size: 14px !important;
-    	line-height: 21px !important;
-	}
-	.feature-selection-options li div span {
-    	font-size: 14px !important;
-    	line-height: 20px !important;
-    	min-height: 70px !important;
-	}
-	.page:not(.home) .btn-gradient, .single .btn-gradient {
-		padding: 8px 20px !important;
-		min-width: 122.5px !important;
-		font-size: 16px !important;
-	}
+// 	.feature-selection-options li strong {
+//    		font-size: 18px !important;
+// 	}
+// 	.feature-selection-options li p {
+//     	font-size: 14px !important;
+//     	line-height: 21px !important;
+// 	}
+// 	.feature-selection-options li div span {
+//     	font-size: 14px !important;
+//     	line-height: 20px !important;
+//     	min-height: 70px !important;
+// 	}
+// 	.page:not(.home) .btn-gradient, .single .btn-gradient {
+// 		padding: 8px 20px !important;
+// 		min-width: 122.5px !important;
+// 		font-size: 16px !important;
+// 	}
 } 
 
-/* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
+// /* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
 
 @media screen and (max-width: 767px) {
 	.fs-v2 .pictures-bg {

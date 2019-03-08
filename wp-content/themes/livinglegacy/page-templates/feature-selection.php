@@ -55,7 +55,7 @@ $user_account_level = ll_getMembershipLevelForUser(get_current_user_id());
 		</li>
 		<li>
 			<div><span>Create a tribute <br>to someone or a <br>special event</span> <a class="btn btn-gradient green-gradient" href="<?php bloginfo('url'); ?>/contributor-history/">Select</a></div>
-			<strong>collaborate with family&nbsp;+&nbsp;friends</strong>
+			<strong>collaborate with family + friends</strong>
 			<p>Create a page for your loved one or celebrate a special event that will last for generations.</p>
 			<p>Invite friends and family to contribute by recording videos, adding home movies, pictures, documents and more!</p>
 		</li>
