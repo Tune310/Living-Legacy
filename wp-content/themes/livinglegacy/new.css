@@ -121,7 +121,11 @@ ul.feature-selection-options {
 }
 /* Screen Resolution breakpoints for iPads/Tablets and devices that contain less than 767px screen width*/
 @media screen and (max-width: 767px) {
-  /* Code here */
+  .fs-v2 .pictures-bg {
+    margin-bottom: -105px !important;
+    background-size: 100% 50% !important;
+    background-position-y: bottom !important;
+  }
 }
 
 /*# sourceMappingURL=new.css.map */
