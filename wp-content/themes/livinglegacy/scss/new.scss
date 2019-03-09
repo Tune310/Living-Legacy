@@ -20,12 +20,33 @@ header {
   background-repeat: no-repeat;
 }
 
+.feature-selection-header .col-v2 {
+  position: relative;
+}
+
 #ll-graphic-lock {
   height: 46px;
   margin-left: 5px;
   top: 12px;
   margin-top: 0px !important; 
   margin-bottom: 0px !important;
+  @media screen and (max-width: 585px) {
+    height: 44px;
+  }
+  @media screen and (max-width: 565px) {
+     margin-right: 16.5px;
+     margin-bottom: 6px !important;
+
+   }  
+  @media screen and (max-width: 480px) {
+    position: absolute;
+    margin-right: 0px !important;
+    top: 94px;
+    height: 30px;
+  } 
+  @media screen and (max-width: 430px) {
+    top: 136px;
+  } 
 }
 
 .feature-selection-options {
