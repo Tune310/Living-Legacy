@@ -24,7 +24,7 @@ $user_account_level = ll_getMembershipLevelForUser(get_current_user_id());
             <p><small>Choose below and start creating your content.</small></p>
         <?php }else{?>  
 			<h1><span>Let’s get started!</span></h1>
-			<p>Everything you create will be stored in your <a href="<?php bloginfo('url'); ?>/memory-vault/">Memory Vault.</a></p>
+			<p>Everything you create will be stored in your <a href="<?php bloginfo('url'); ?>/memory-vault/">Memory Vault.</a><img src="/wp-content/themes/livinglegacy/images/ll-lock-graphic.png" id="ll-graphic-lock" alt=""></p>
 			<p><small>Choose below and  start creating your content.</small></p>
 			
 			<?php }?>

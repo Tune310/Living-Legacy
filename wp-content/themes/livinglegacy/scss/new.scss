@@ -20,6 +20,14 @@ header {
   background-repeat: no-repeat;
 }
 
+#ll-graphic-lock {
+  height: 46px;
+  margin-left: 5px;
+  top: 12px;
+  margin-top: 0px !important; 
+  margin-bottom: 0px !important;
+}
+
 .feature-selection-options {
   top: -88px !important;
   padding-bottom: 70px !important;
@@ -79,9 +87,9 @@ header {
 }
 
 .page:not(.home) .btn-gradient, .single .btn-gradient {
-     font-size: 11px !important;
-    padding: 3px 20px !important;
-    min-width: 82.5px !important;
+    font-size: 12px !important;
+    padding: 6px 20px !important;
+    min-width: 102.5px !important;
 }
 
 .header-banner.feature-selection-header h1 span {
@@ -105,8 +113,12 @@ header {
 @media screen and (min-width: 1281px) {
   .fs-v2 .pictures-bg {
     height: 300px !important;
+    background-size: cover !important;
   }
 
+  .feature-selection-options {
+    top: -120px !important;
+  }
   .feature-selection-options li p {
     font-size: 15.5px !important;
   }
@@ -170,6 +182,7 @@ header {
 
   }
 }
+/*Mobile Breakpoint*/
 @media screen and (max-width: 480px) {
   .page:not(.home) .btn-gradient, .single .btn-gradient {
     font-size: 14.5px !important;
