@@ -14,7 +14,7 @@ $user_account_level = ll_getMembershipLevelForUser(get_current_user_id());
 
 ?>
 
-<div class="header-banner feature-selection-header have-pics-bottom fs-v2">
+<div class="header-banner feature-selection-header have-pics-bottom fs-v2" id="fs-header">
 	<div class="container row">
 		<div class="col-v2">
         <?php if(!empty($user_account_level->ID) and $user_account_level->ID==4){?>
@@ -37,7 +37,7 @@ $user_account_level = ll_getMembershipLevelForUser(get_current_user_id());
 		</div>
 	</div>
 	
-	<div class="pictures-bg">
+	<div class="pictures-bg" id="fs-pictures-bg">
 
 	</div>
 	
@@ -46,21 +46,21 @@ $user_account_level = ll_getMembershipLevelForUser(get_current_user_id());
 
 
 <div class="container">
-	<ul class="feature-selection-options">
+	<ul class="feature-selection-options" id="fs-selection-options">
 		<li>
-			<div><span>Tell stories <br>about your life</span> <a class="btn btn-gradient green-gradient" href="<?php bloginfo('url'); ?>/personal-history-questions/">Select</a></div>
+			<div><span>Tell stories <br>about your life</span> <a class="btn btn-gradient green-gradient fs-btn" href="<?php bloginfo('url'); ?>/personal-history-questions/">Select</a></div>
 			<strong> over 100 thoughtful questions</strong>
 			<p>Let us help you to create meaningful content. You’ll be guided through a series of questions to help organize your thoughts.</p>
 			<p>Choose from 100’s of questions that range from your basic biography to deeper insights. You can also create and answer your own!</p>
 		</li>
 		<li>
-			<div><span>Create a tribute <br>to someone or a <br>special event</span> <a class="btn btn-gradient green-gradient" href="<?php bloginfo('url'); ?>/contributor-history/">Select</a></div>
+			<div><span>Create a tribute <br>to someone or a <br>special event</span> <a class="btn btn-gradient green-gradient fs-btn" href="<?php bloginfo('url'); ?>/contributor-history/">Select</a></div>
 			<strong>collaborate with family + friends</strong>
 			<p>Create a page for your loved one or celebrate a special event that will last for generations.</p>
 			<p>Invite friends and family to contribute by recording videos, adding home movies, pictures, documents and more!</p>
 		</li>
 		<li>
-			<div><span>Create a <br>personal message <br>to someone</span> <a class="btn btn-gradient green-gradient" href="<?php bloginfo('url'); ?>/tributes/">Select</a></div>
+			<div><span>Create a <br>personal message <br>to someone</span> <a class="btn btn-gradient green-gradient fs-btn" href="<?php bloginfo('url'); ?>/tributes/">Select</a></div>
 			<strong>record video, add pics + more</strong>
 			<p>This feature is great for sending that special message for someone’s wedding, graduation, birthday or anniversary. </p>
 			<p>You can even store messages for future use. <br>Lets say you create a message for your granddaughter to read on her wedding day. That may be 30 years from now, but she’ll have your message at her wedding. Pretty cool, huh?  </p>

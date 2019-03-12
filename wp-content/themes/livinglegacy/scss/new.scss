@@ -12,7 +12,7 @@ header {
 
 /*          Featured Selection Page         */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Desktop resolution~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.feature-selection-header {
+#fs-header {
   // background-image: url(images/home-header-hero.png);
   background-image: url(images/ll-background-centered.jpg);
   background-size: cover;
@@ -20,7 +20,7 @@ header {
   background-repeat: no-repeat;
 }
 
-.feature-selection-header .col-v2 {
+#fs-header .col-v2 {
   position: relative;
 }
 
@@ -49,16 +49,16 @@ header {
   } 
 }
 
-.feature-selection-options {
+#fs-selection-options {
   top: -88px !important;
   padding-bottom: 70px !important;
 }
 
-.feature-selection-options li div {
+#fs-selection-options li div {
   background: url(images/living-legacies-circle-graphic.png) no-repeat center center !important;
 }
 
-.fs-v2 .pictures-bg {
+#fs-header.fs-v2 #fs-pictures-bg {
   background: url(images/fs-bottom-img.png) no-repeat center center !important;
   height: 250px !important;
   /*width: 100% !important;*/
@@ -66,7 +66,7 @@ header {
   background-size: cover !important;
 }
 
-.page:not(.home) .btn-gradient, .single .btn-gradient {
+.fs-btn {
   padding: 10px 20px !important;
   min-width: 125px !important;
   font-size: 11px !important;
@@ -74,57 +74,57 @@ header {
   min-width: 82.5px !important;
 }
 
-.feature-selection-options li p {
+#fs-selection-options li p {
   font-size: 12.5px !important;
 }
 
-.feature-selection-options li strong {
+#fs-selection-options li strong {
   font-size: 17.9px !important;
 }
 
-.feature-selection-options li div span {
+#fs-selection-options li div span {
   font-size: 19px !important;
 }
 
-.fs-v2 .pictures-bg {
+#fs-header.fs-v2 #fs-pictures-bg {
   margin-bottom: -208px !important;
   background-size: 100% 80% !important;
 }
 
-.feature-selection-options li div {
+#fs-selection-options li div {
   height: 250px !important;
   width: 250px !important;
   padding: 54px 30px 40px !important;
 }
 
-.feature-selection-options li p {
+#fs-selection-options li p {
   line-height: 23px !important;
 }
 
-.feature-selection-options li div span {
+#fs-selection-options li div span {
   font-size: 15px !important;
   line-height: 20px !important;
   min-height: 70px !important;
 }
 
-.page:not(.home) .btn-gradient, .single .btn-gradient {
+.fs-btn {
     font-size: 12px !important;
     padding: 6px 20px !important;
     min-width: 102.5px !important;
 }
 
-.header-banner.feature-selection-header h1 span {
+#fs-header.feature-selection-header h1 span {
   font-size: 43.5px !important;
   text-transform: uppercase !important;
 }
 
-.header-banner.feature-selection-header .col-v2 .text-btn.color2 {
+#fs-header.feature-selection-header .col-v2 .text-btn.color2 {
   position: relative;
   bottom: 20px;
   right: 7px;
 }
 
-.header-banner .col-v2 {
+#fs-header .col-v2 {
   position: relative;
   top: 65px;
 }
@@ -132,72 +132,72 @@ header {
 /*  Media Queries */
 /* Min Width Screen 1260px*/
 @media screen and (min-width: 1281px) {
-  .fs-v2 .pictures-bg {
+  #fs-header.fs-v2 #fs-pictures-bg {
     height: 300px !important;
     background-size: cover !important;
   }
 
-  .feature-selection-options {
+  #fs-selection-options {
     top: -120px !important;
   }
-  .feature-selection-options li p {
+  #fs-selection-options li p {
     font-size: 15.5px !important;
   }
 
-  .feature-selection-options li strong {
+  #fs-selection-options li strong {
     font-size: 21px !important;
   }
 }
 @media screen and (max-width: 1280px) {
-  .fs-v2 .pictures-bg {
+  #fs-header.fs-v2 #fs-pictures-bg {
     width: 1280px !important;
   }
 
-  .fs-v2 .pictures-bg:parent {
+  #fs-header.fs-v2 #fs-pictures-bg:parent {
     max-width: 1280px;
   }
-   .feature-selection-options li strong {
+   #fs-selection-options li strong {
     font-size: 18.8px !important;
   }
 }
 
 @media screen and (max-width: 1271px) {
-  .feature-selection-options li strong {
+  #fs-selection-options li strong {
     font-size: 17.9px !important;
   }
 } 
 
 @media screen and (min-width: 992px) {
-  .feature-selection-options {
+  #fs-selection-options {
     padding-left: 65px !important;
     padding-right: 65px !important;
   }
 }
 @media screen and (max-width: 767px) {
-  .feature-selection-options {
+  #fs-selection-options {
     top: -115px !important;
     margin-bottom: -210px;
     flex-wrap: wrap !important;
     -webkit-flex-wrap: wrap !important;
   }
 
-  .feature-selection-options li {
+  #fs-selection-options li {
     width: 100% !important;
     text-align: center;
   }
 
-  .feature-selection-options li div {
+  #fs-selection-options li div {
     height: 250px !important;
     width: 250px !important;
     padding: 54px 30px 40px !important;
   }
 
-  .fs-v2 .pictures-bg {
+  #fs-header.fs-v2 #fs-pictures-bg {
     margin-bottom: -105px !important;
     background-size: 112% 76% !important;
     background-position-y: bottom !important;
   }
-  .page:not(.home) .btn-gradient, .single .btn-gradient {
+  .fs-btn {
     padding: 8px 20px !important;
     min-width: 108.5px !important;
 
@@ -205,7 +205,7 @@ header {
 }
 /*Mobile Breakpoint*/
 @media screen and (max-width: 480px) {
-  .page:not(.home) .btn-gradient, .single .btn-gradient {
+  .fs-btn {
     font-size: 14.5px !important;
     padding: 12px 20px !important;
     min-width: 132.5px !important;
