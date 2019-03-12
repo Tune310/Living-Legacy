@@ -8,6 +8,7 @@ header {
   margin-bottom: -6px;
   width: 100%;
   border-image-outset: 11px !important;
+  overflow: hidden;
 }
 
 /*          Featured Selection Page         */
